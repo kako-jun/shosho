@@ -1,0 +1,19 @@
+name = "shosho-api"
+main = "src/index.ts"
+compatibility_date = "2024-11-01"
+
+# D1 Database
+[[d1_databases]]
+binding = "DB"
+database_name = "shosho-db"
+database_id = "YOUR_DATABASE_ID"  # wrangler d1 create shosho-db で生成されるIDに置き換え
+
+# Cron Triggers（週次で新刊チェック）
+# [triggers]
+# crons = ["0 0 * * 0"]  # 毎週日曜 00:00 UTC
+
+# 環境変数（PA-API用、後で設定）
+# [vars]
+# AMAZON_ACCESS_KEY = ""
+# AMAZON_SECRET_KEY = ""
+# AMAZON_PARTNER_TAG = ""
