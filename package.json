@@ -1,0 +1,12 @@
+{
+  "name": "shosho",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --parallel -r dev",
+    "dev:frontend": "pnpm --filter frontend dev",
+    "dev:workers": "pnpm --filter shosho-workers dev",
+    "build": "pnpm --filter frontend build",
+    "install:all": "pnpm install"
+  },
+  "packageManager": "pnpm@9.15.0"
+}

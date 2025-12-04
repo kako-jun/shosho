@@ -47,7 +47,7 @@ function App() {
           transition: "bottom 0.3s",
         }}
       >
-        ドラッグで回転 / スクロールでズーム / 本をクリックで詳細
+        本をクリックで詳細
       </div>
     </div>
   );
